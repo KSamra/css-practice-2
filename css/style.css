@@ -119,7 +119,6 @@ body {
   .search__icon {
     height: 2rem;
     width: 2rem;
-    background-color: palevioletred;
     fill: var(--color-grey-dark-3); }
 
 .user-nav {
