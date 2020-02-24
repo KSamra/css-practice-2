@@ -27,11 +27,18 @@
   //Order of args: flex-grow, flex-shrink, flex-basis
   flex: 0 0 18%;
   //takes up 18% of it's container
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hotel-view{
   background-color: #fff;
-  background-color: orangered;
-  flex: 1;
   //take up the remaining portion of its flex-container
+  flex: 1;
+  
+  //
+  height: 80rem;
+  background-color: orangered;
 }
