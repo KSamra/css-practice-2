@@ -80,15 +80,13 @@ body {
 .hotel-view {
   background-color: #fff;
   flex: 1;
-  height: 80rem;
-  background-color: orangered; }
+  height: 80rem; }
 
 .logo {
   height: 3.25rem;
   margin-left: 2rem; }
 
 .search {
-  background-color: cyan;
   flex: 0 0 40%;
   display: flex;
   align-items: center;
@@ -205,3 +203,9 @@ body {
   color: var(--color-grey-light-4);
   text-align: center;
   padding: 2.5rem; }
+
+.gallery {
+  display: flex; }
+  .gallery__photo {
+    width: 100%;
+    display: block; }

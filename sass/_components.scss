@@ -8,7 +8,6 @@
 ///////////////////////
 //SEARCH BOX
 .search {
-  background-color: cyan;
   flex: 0 0 40%;
 
   display: flex;
@@ -207,4 +206,16 @@
   color: var(--color-grey-light-4);
   text-align: center;
   padding: 2.5rem;
+}
+
+
+.gallery {
+  display: flex;
+
+
+  &__photo {
+    width: 100%;
+    display: block;
+  }
+
 }
