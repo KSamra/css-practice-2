@@ -340,7 +340,15 @@
   list-style: none;
   margin: 3rem 0;
   padding: 3rem 0;
-  border-bottom: 0 2rem 5rem rbga(0,0,0,.06);
+  border-top: var(--line) ;
+  border-bottom: var(--line);
+
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    flex: 0 0 50%;
+  }
 }
 
 
