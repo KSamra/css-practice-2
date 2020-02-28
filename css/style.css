@@ -87,10 +87,10 @@ body {
   display: flex;
   padding: 4.5rem;
   background-color: var(--color-grey-light-1);
-  border-bottom: 1px solid var(--color-grey-light-2); }
+  border-bottom: 1px solid var(--color-grey-light-2);
+  font-size: 1.4rem; }
 
 .description {
-  font-size: 1.4rem;
   background-color: #fff;
   box-shadow: 0 2rem 5rem rbga(0, 0, 0, 0.06);
   padding: 3rem;
@@ -334,3 +334,26 @@ body {
       margin-right: -1.5rem; }
   .recommend__count {
     margin-right: auto; }
+
+.review {
+  background-color: #fff;
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  margin-bottom: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .review__user {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem; }
+  .review__photo {
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%; }
+  .review__user-name {
+    color: var(--color-grey-dark-1); }
+  .review__rating {
+    color: var(--color-primary);
+    font-size: 2rem;
+    font-weight: 300; }
