@@ -104,6 +104,15 @@ body {
   justify-content: center;
   align-items: center; }
 
+.cta {
+  padding: 3.5rem 0;
+  text-align: center; }
+  .cta__book-now {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+    text-transform: uppercase; }
+
 .logo {
   height: 3.25rem;
   margin-left: 2rem; }
